@@ -93,6 +93,12 @@ blockquote {
 h1 + p {
   color: #a0a0a0;
 }
+
+.badge {
+  border: 5px solid #039ec4;
+  outline: 5px solid #9e1f6d;
+  padding: 2px;
+}
 ul,
 ol {
   margin-left: 2em;
@@ -209,6 +215,15 @@ footer a {
 }
 
 @media screen and (min-width: 576px) {
+  p,
+  ul,
+  ol {
+    font-size: 1.3em;
+  }
+
+  h1 {
+    font-size: 2.8em;
+  }
   header nav li {
     display: inline;
     margin-inline: 0.5em;
@@ -223,9 +238,45 @@ footer a {
   input {
     width: 70%;
     height: 3.5em;
+    padding-left: 1em;
   }
   button {
     width: 20%;
     height: 3.5em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 3.6em;
+  }
+  header,
+  main,
+  footer {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  header .logo,
+  header nav,
+  header .logo p {
+    display: inline-block;
+  }
+
+  header .logo img,
+  header .logo p {
+    margin-bottom: 0;
+  }
+
+  header .logo {
+    width: 70%;
+  }
+
+  header .logo img {
+    vertical-align: middle;
   }
 }
