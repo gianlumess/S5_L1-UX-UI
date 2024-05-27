@@ -279,4 +279,37 @@ footer a {
   header .logo img {
     vertical-align: middle;
   }
+
+  .video-form {
+    height: 22em;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .video-form iframe {
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+  }
+
+  .video-form section {
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    border-radius: 20px;
+    vertical-align: top;
+  }
+
+  .video-form section {
+    margin-bottom: 0;
+  }
+
+  aside div {
+    display: inline-block;
+    width: 33%;
+  }
+
+  table {
+    width: 75%;
+  }
 }
